@@ -6,7 +6,7 @@ import Verify from "./pages/Verify";
 
 function App() {
   return (
-    <>
+    <div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -15,7 +15,7 @@ function App() {
           <Route path="/otp" element={<Verify />} />
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 
