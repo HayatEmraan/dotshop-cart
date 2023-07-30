@@ -1,5 +1,5 @@
 export default async function loginFetch(email) {
-  const res = await fetch(`https://cart-api.teamrabbil.com/api/login`, {
+  const res = await fetch(`https://cart-api.teamrabbil.com/api/user-login`, {
     method: "POST",
     headers: {
       "content-type": "application/json",
